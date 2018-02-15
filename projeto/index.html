@@ -226,17 +226,47 @@
                 <div class="chart col-lg-3 col-12">
                   <!-- Bar Chart   -->
                   <div class="bar-chart has-shadow bg-white">
-                    <div class="title"><strong class="text-violet">95%</strong><br><small>Current Server Uptime</small></div>
+                    <div class="title"><strong class="text-violet">Vendas</strong><br><small>Current Server Uptime</small></div>
                     <canvas id="barChartHome"></canvas>
                   </div>
                   <!-- Numbers-->
                   <div class="statistic d-flex align-items-center bg-white has-shadow">
+                    <small>Metas</small>
                     <div class="icon bg-green"><i class="fa fa-line-chart"></i></div>
-                    <div class="text"><strong>99.9%</strong><br><small>Success Rate</small></div>
+
+                    <div class="text"><strong>99.9%</strong></div>
+                  </div>
+                </div>
+                <!-- Client Profile -->
+                <div class="col-lg-5">
+                  <div class="client card">
+                    <div class="card-close">
+                      <div class="dropdown">
+                        <button type="button" id="closeCard2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                        <div aria-labelledby="closeCard2" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="client-avatar"><img src="img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle">
+                        <div class="status bg-green"></div>
+                      </div>
+                      <div class="client-title">
+                        <h3>Jason Doe</h3><span>Web Developer</span>
+                      </div>
+                      <div class="client-info">
+                        <div class="row">
+                          <div class="col-4"><strong>20</strong><br><small>Photos</small></div>
+                          <div class="col-4"><strong>54</strong><br><small>Videos</small></div>
+                          <div class="col-4"><strong>235</strong><br><small>Tasks</small></div>
+                        </div>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </section>
           <!-- Projects Section-->
           <section class="projects no-padding-top">
@@ -335,149 +365,8 @@
               </div>
             </div>
           </section>
-          <!-- Client Section-->
-          <section class="client no-padding-top">
-            <div class="container-fluid">
-              <div class="row">
-                <!-- Work Amount  -->
-               
-                <!-- Client Profile -->
-                <div class="col-lg-4">
-                  <div class="client card">
-                    <div class="card-close">
-                      <div class="dropdown">
-                        <button type="button" id="closeCard2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                        <div aria-labelledby="closeCard2" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                      </div>
-                    </div>
-                    <div class="card-body text-center">
-                      <div class="client-avatar"><img src="img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle">
-                        <div class="status bg-green"></div>
-                      </div>
-                      <div class="client-title">
-                        <h3>Jason Doe</h3><span>Web Developer</span><a href="#">Follow</a>
-                      </div>
-                      <div class="client-info">
-                        <div class="row">
-                          <div class="col-4"><strong>20</strong><br><small>Photos</small></div>
-                          <div class="col-4"><strong>54</strong><br><small>Videos</small></div>
-                          <div class="col-4"><strong>235</strong><br><small>Tasks</small></div>
-                        </div>
-                      </div>
-                      <div class="client-social d-flex justify-content-between"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a><a href="#" target="_blank"><i class="fa fa-twitter"></i></a><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a><a href="#" target="_blank"><i class="fa fa-instagram"></i></a><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Total Overdue             -->
-                <div class="col-lg-4">
-                  <div class="overdue card">
-                    <div class="card-close">
-                      <div class="dropdown">
-                        <button type="button" id="closeCard3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                        <div aria-labelledby="closeCard3" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h3>Total Overdue</h3><small>Lorem ipsum dolor sit amet.</small>
-                      <div class="number text-center">$20,000</div>
-                      <div class="chart">
-                        <canvas id="lineChart1">                               </canvas>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Feeds Section-->
-          <section class="feeds no-padding-top">
-            <div class="container-fluid">
-              <div class="row">
-                <!-- Trending Articles-->
-                <div class="col-lg-6">
-                  <div class="articles card">
-                    <div class="card-close">
-                      <div class="dropdown">
-                        <button type="button" id="closeCard4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                        <div aria-labelledby="closeCard4" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                      </div>
-                    </div>
-                    <div class="card-header d-flex align-items-center">
-                      <h2 class="h3">Trending Articles   </h2>
-                      <div class="badge badge-rounded bg-green">4 New       </div>
-                    </div>
-                    <div class="card-body no-padding">
-                      <div class="item d-flex align-items-center">
-                        <div class="image"><img src="img/avatar-1.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="text"><a href="#">
-                            <h3 class="h5">Lorem Ipsum Dolor</h3></a><small>Posted on 5th June 2017 by Aria Smith.   </small></div>
-                      </div>
-                      <div class="item d-flex align-items-center">
-                        <div class="image"><img src="img/avatar-2.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="text"><a href="#">
-                            <h3 class="h5">Lorem Ipsum Dolor</h3></a><small>Posted on 5th June 2017 by Frank Williams.   </small></div>
-                      </div>
-                      <div class="item d-flex align-items-center">
-                        <div class="image"><img src="img/avatar-3.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="text"><a href="#">
-                            <h3 class="h5">Lorem Ipsum Dolor</h3></a><small>Posted on 5th June 2017 by Ashley Wood.   </small></div>
-                      </div>
-                      <div class="item d-flex align-items-center">
-                        <div class="image"><img src="img/avatar-4.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="text"><a href="#">
-                            <h3 class="h5">Lorem Ipsum Dolor</h3></a><small>Posted on 5th June 2017 by Jason Doe.   </small></div>
-                      </div>
-                      <div class="item d-flex align-items-center">
-                        <div class="image"><img src="img/avatar-5.jpg" alt="..." class="img-fluid rounded-circle"></div>
-                        <div class="text"><a href="#">
-                            <h3 class="h5">Lorem Ipsum Dolor</h3></a><small>Posted on 5th June 2017 by Sam Martinez.   </small></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Check List -->
-                <div class="col-lg-6">
-                  <div class="checklist card">
-                    <div class="card-close">
-                      <div class="dropdown">
-                        <button type="button" id="closeCard5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                        <div aria-labelledby="closeCard5" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                      </div>
-                    </div>
-                    <div class="card-header d-flex align-items-center">           
-                      <h2 class="h3">To Do List </h2>
-                    </div>
-                    <div class="card-body no-padding">
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-1" name="input-1" class="checkbox-template">
-                        <label for="input-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-2" name="input-2" class="checkbox-template">
-                        <label for="input-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-3" name="input-3" class="checkbox-template">
-                        <label for="input-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-4" name="input-4" class="checkbox-template">
-                        <label for="input-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-5" name="input-5" class="checkbox-template">
-                        <label for="input-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                      <div class="item d-flex">
-                        <input type="checkbox" id="input-6" name="input-6" class="checkbox-template">
-                        <label for="input-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          
+      
           <!-- Updates Section                                                -->
           <section class="updates no-padding-top">
             <div class="container-fluid">
@@ -492,7 +381,7 @@
                       </div>
                     </div>
                     <div class="card-header">
-                      <h3 class="h4">Recent Updates</h3>
+                      <h3 class="h4">Últimos Emails</h3>
                     </div>
                     <div class="card-body no-padding">
                       <!-- Item-->
@@ -563,7 +452,7 @@
                       </div>
                     </div>
                     <div class="card-header">
-                      <h3 class="h4">Daily Feeds</h3>
+                      <h3 class="h4">Entregas Agendadas</h3>
                     </div>
                     <div class="card-body no-padding">
                       <!-- Item-->
@@ -618,7 +507,7 @@
                       </div>
                     </div>
                     <div class="card-header">
-                      <h3 class="h4">Recent Activities</h3>
+                      <h3 class="h4">Histórico de Atividades</h3>
                     </div>
                     <div class="card-body no-padding">
                       <div class="item">
